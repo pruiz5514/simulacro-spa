@@ -1,0 +1,89 @@
+@import '../../style.scss';
+
+.cityDetails-main{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+    gap: 30px;
+
+    .cityDetails-section{
+        width: 100%;
+        min-width: 300px;
+        max-width: 800px;
+        height: 500px;
+        border: 2px solid $gray;
+        padding: 20px 15px;
+
+        .cityDetails-tilte{
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        .cityDetails-image-contaianer{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+
+            .cityDetails-image{
+                width: 100%;
+                max-width: 330px;
+                min-width: 200px;
+                height: 220px;
+            }
+        }
+    }
+
+    .addCity-section{
+        width: 100%;
+        min-width: 290px;
+        max-width: 800px;
+        height: auto;
+        border: 2px solid $gray;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px 0;
+
+        .addCity-title{
+            margin-bottom: 30px;
+        }
+
+        .addCity-form{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            align-items: center;
+
+            .addCity-input{
+                width: 80%;
+                height: 35px;
+                border-radius: 10px;
+                border: 2px solid $gray;
+                padding: 0 10px;
+            }
+
+            .addCity-textarea{
+                width: 80%;
+                height: 85px;
+                border-radius: 10px;
+                border: 2px solid $gray;
+                padding: 10px;
+            }
+
+            .addCity-button{
+                width: 150px;
+                height: 40px;
+                border: none;
+                border-radius: 8px;
+                background: $lightBlue;
+                color: $white;
+                font-size: 16px;
+                cursor: pointer;
+            }
+        }
+    }
+}

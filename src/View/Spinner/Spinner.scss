@@ -1,0 +1,35 @@
+@import '../../style.scss';
+
+.spinner-container{
+    display: flex;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: $white;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+
+    .spinner{
+        border: 4px solid rgba(0, 0, 0, .1);
+        width: 46px;
+        height: 46px;
+        border-radius: 50%;
+        border-left-color: #09f;
+        margin: auto;
+    
+        animation: spin 1s ease infinite;
+    }
+    
+    @keyframes spin{
+        0%{
+            transform: rotate(0deg);
+        }
+    
+        100%{
+            transform: rotate(360deg);
+        }
+    }
+}

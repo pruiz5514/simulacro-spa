@@ -1,0 +1,60 @@
+@import '../../style.scss';
+
+.addCity-main{
+    width: 90%;
+    padding: 40px 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+
+    .addCity-section{
+        width: 100%;
+        min-width: 290px;
+        max-width: 800px;
+        height: auto;
+        border: 2px solid $gray;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px 0;
+
+        .addCity-title{
+            margin-bottom: 30px;
+        }
+
+        .addCity-form{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            align-items: center;
+
+            .addCity-input{
+                width: 80%;
+                height: 35px;
+                border-radius: 10px;
+                border: 2px solid $gray;
+                padding: 0 10px;
+            }
+
+            .addCity-textarea{
+                width: 80%;
+                height: 85px;
+                border-radius: 10px;
+                border: 2px solid $gray;
+                padding: 10px;
+            }
+
+            .addCity-button{
+                width: 150px;
+                height: 40px;
+                border: none;
+                border-radius: 8px;
+                background: $lightBlue;
+                color: $white;
+                font-size: 16px;
+                cursor: pointer;
+            }
+        }
+    }
+}

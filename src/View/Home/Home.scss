@@ -1,0 +1,20 @@
+@import '../../style.scss';
+
+.home-main{
+    width: 90%;;
+    margin: 0 auto;
+    padding: 30px 0;
+
+    .home-tilte{
+        text-align: center;
+    }
+
+    .cardsContainer-home{
+        width: 100%;
+        padding-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 35px;
+        justify-content: center;
+    }
+}
